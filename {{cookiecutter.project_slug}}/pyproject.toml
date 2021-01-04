@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "{{cookiecutter.project_name}}"
+name = "{{cookiecutter.project_slug}}"
 version = "0.1.0"
 description = "{{cookiecutter.description}}"
 license = "MIT"
 authors = ["{{cookiecutter.username}} <{{cookiecutter.email}}>"]
 readme = "README.md"
-repository = "https://github.com/{{cookiecutter.username}}/{{cookiecutter.project_name}}"
+repository = "https://github.com/{{cookiecutter.username}}/{{cookiecutter.project_slug}}"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.1"

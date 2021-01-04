@@ -1,5 +1,6 @@
 {
     "project_name": "pypackage",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "description": "",
     "username": "kpj",
     "email": "kim.philipp.jablonski@gmail.com"
