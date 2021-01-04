@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "{{cookiecutter.project_name}}"
+version = "0.1.0"
+description = "{{cookiecutter.description}}"
+license = "MIT"
+authors = ["{{cookiecutter.username}} <{{cookiecutter.email}}>"]
+readme = "README.md"
+repository = "https://github.com/{{cookiecutter.username}}/{{cookiecutter.project_name}}"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.1"
+bump2version = "^1.0.1"
