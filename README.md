@@ -6,6 +6,7 @@ Cool features:
 * GitHub Actions workflows for automated CI/CD
 * Testing using [pytest](https://github.com/pytest-dev/pytest)
 * Semantic versioning using [bump2version](https://github.com/c4urself/bump2version)
+* Automated dependency updates using [dependabot](https://github.com/dependabot/dependabot-core)
 
 ## Usage
 
