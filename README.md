@@ -27,3 +27,7 @@ Setup additional requirements:
 
 * [Add a new API token](https://pypi.org/manage/account/token/) on PyPi and call it `GitHub Actions CI/CD — <username>/<project>`
 * Add API token on `https://github.com/<username>/<project>/settings/secrets/actions` and call it `PYPI_API_TOKEN`
+
+## Tips
+
+To update the version (and tag/commit the new release) execute `bump2version major/minor/patch`.
