@@ -23,6 +23,9 @@ jobs:
           poetry install
           poetry build
 
+      - name: Lint package
+        run: poetry run black --check --diff .
+
       - name: Test package
         run: poetry run pytest -v
   deploy:
