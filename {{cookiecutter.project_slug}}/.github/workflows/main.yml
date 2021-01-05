@@ -23,11 +23,11 @@ jobs:
           poetry install
           poetry build
 
-      - name: Lint package
-        run: poetry run black --check --diff .
-
       - name: Test package
         run: poetry run pytest -v
+
+      - name: Lint package
+        run: poetry run black --check --diff .
   deploy:
     runs-on: ubuntu-latest
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags')
