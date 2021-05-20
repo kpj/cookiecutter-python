@@ -3,7 +3,7 @@
 Opinionated cookiecutter template for Python packages.
 Cool features:
 * Package management using [poetry](https://github.com/python-poetry/poetry)
-* GitHub Actions workflows for automated CI/CD
+* Automated CI/CD workflows with [GitHub Actions](https://github.com/features/actions)
 * Testing using [pytest](https://github.com/pytest-dev/pytest)
 * Linting using [black](https://github.com/psf/black)
 * Semantic versioning using [bump2version](https://github.com/c4urself/bump2version)
