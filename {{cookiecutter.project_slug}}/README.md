@@ -8,7 +8,7 @@
 
 ## Installation
 
-```python
+```bash
 $ pip install {{cookiecutter.project_slug}}
 ```
 
