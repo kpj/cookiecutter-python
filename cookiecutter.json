@@ -4,5 +4,6 @@
     "description": "",
     "username": "kpj",
     "email": "kim.philipp.jablonski@gmail.com",
-    "initial_version": "0.1.0"
+    "initial_version": "0.1.0",
+    "python_version": "3.8.0"
 }

@@ -8,7 +8,7 @@ readme = "README.md"
 repository = "https://github.com/{{cookiecutter.username}}/{{cookiecutter.project_slug}}"
 
 [tool.poetry.dependencies]
-python = "^3.8.0"
+python = "^{{cookiecutter.python_version}}"
 
 [tool.poetry.dev-dependencies]
 bump2version = "^1.0.1"
